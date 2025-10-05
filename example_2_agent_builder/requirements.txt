@@ -1,0 +1,29 @@
+# Python dependencies for agent builder
+black
+openai
+fastapi
+pydantic
+python-dotenv
+# ============================================================================
+# Agno Agent Builder Team - Requirements
+# ============================================================================
+
+# Core Framework
+agno
+
+# Environment Variables
+python-dotenv
+lancedb
+tantivy-py
+# Optional: For generated agents that might use these tools
+# Uncomment if needed
+# duckduckgo-search>=6.0.0
+# PyGithub>=2.0.0
+# yfinance>=0.2.0
+# requests>=2.31.0
+# newspaper3k>=0.2.8
+# arxiv>=2.0.0
+
+# Note: Node.js is required for MCP/Context7
+# Install Node.js from: https://nodejs.org
+# Context7 will be run via npx (no Python package needed)

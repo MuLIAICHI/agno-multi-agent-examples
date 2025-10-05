@@ -1,0 +1,16 @@
+# AI Candidate Screening Team - Requirements
+
+# Core Framework
+agno
+
+# LLM Provider
+openai
+
+# Environment Variables
+python-dotenv
+
+# Optional: For future enhancements
+# pypdf2>=3.0.0          # PDF parsing
+# python-docx>=1.0.0     # DOCX parsing
+# sentence-transformers  # Semantic similarity
+# pandas>=2.0.0          # Data analysis

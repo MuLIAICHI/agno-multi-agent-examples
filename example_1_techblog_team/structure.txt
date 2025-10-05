@@ -1,0 +1,22 @@
+example_1_techblog_team/
+│
+├── README.md                           # Main documentation (comprehensive guide)
+├── SETUP.md                           # Setup and testing instructions
+├── requirements.txt                   # Python dependencies
+├── .env.example                       # Example environment variables file
+├── .gitignore                         # Git ignore patterns
+│
+├── main.py                            # Main team implementation (primary file)
+│
+├── tools/                             # Custom tools directory
+│   ├── __init__.py                   # Makes it a package
+│   └── github_tool.py                # GitHub search tool (extracted from main)
+│
+├── outputs/                           # Example blog post outputs
+│   ├── fastapi_best_practices.md     # Sample output 1
+│
+│
+└── docs/                              # Additional documentation
+    ├── ARCHITECTURE.md                # Detailed architecture explanation
+    ├── CUSTOMIZATION.md               # How to customize
+    └── TROUBLESHOOTING.md             # Common issues and solutions 

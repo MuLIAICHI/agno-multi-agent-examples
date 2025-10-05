@@ -1,0 +1,107 @@
+# ============================================================================
+# Core Dependencies - Required
+# ============================================================================
+
+# Agno framework (multi-agent systems)
+agno
+
+# OpenAI API client
+openai
+
+# Web search tool
+duckduckgo-search
+
+# HTTP requests (for GitHub API)
+requests
+
+
+# ============================================================================
+# Optional Dependencies - Recommended
+# ============================================================================
+
+# Environment variable management
+python-dotenv
+
+# Better colored console output
+colorama
+
+
+# ============================================================================
+# Development Dependencies - Optional
+# ============================================================================
+
+# Testing framework
+pytest
+pytest-asyncio
+
+# Code formatting
+black
+
+# Code linting
+flake8
+pylint
+
+# Type checking
+mypy
+
+# Test coverage
+pytest-cov
+
+
+# ============================================================================
+# Alternative Model Providers - Optional
+# ============================================================================
+
+# Uncomment if you want to use these models:
+
+# Anthropic Claude
+# anthropic>=0.25.0
+
+# Google Gemini
+# google-generativeai>=0.3.0
+
+# Groq
+# groq>=0.4.0
+
+# AWS Bedrock
+# boto3>=1.28.0
+
+
+# ============================================================================
+# Additional Tools - Optional
+# ============================================================================
+
+# Uncomment if you need these tools:
+
+# YFinance for financial data
+# yfinance>=0.2.0
+
+# Newspaper for article parsing
+# newspaper4k>=0.9.0
+
+# PDF processing
+# pypdf>=3.0.0
+
+# Database support
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0  # PostgreSQL
+
+# Vector databases
+# chromadb>=0.4.0
+# lancedb>=0.3.0
+
+
+# ============================================================================
+# Installation Instructions
+# ============================================================================
+
+# Basic installation (required only):
+#   pip install -r requirements.txt
+#
+# With development tools:
+#   pip install agno openai duckduckgo-search requests python-dotenv pytest black
+#
+# Full installation (all optional dependencies):
+#   pip install -r requirements.txt anthropic google-generativeai groq
+#
+# ============================================================================
